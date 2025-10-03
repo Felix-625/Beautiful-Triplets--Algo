@@ -1,1 +1,3 @@
 # Beautiful-Triplets--Algo
+
+This problem where it counts the number of triplets in an array that follow the pattern (a, a+d, a+2d) for a given difference d. The function beautifulTriplets uses an unordered set to store all values in the array, then iterates through each value and checks if both value + d and value + 2d exist in the set, which would form a valid beautiful triplet. The main function handles input parsing and string trimming using helper functions ltrim, rtrim, and split, converts the input into an integer array, and writes the result to an output file. This approach ensures efficient checking using constant-time set lookups rather than nested loops.
